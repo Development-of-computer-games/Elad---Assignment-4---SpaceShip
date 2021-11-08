@@ -38,5 +38,25 @@ when finishing the fadeout  , we need to fade in for the next time the player ta
 
 
 
+# Second part - add an original change
+
+I chose to add a boss space ship enemy which appears every 'x' seconds and it goes from top to the bottom of the screen and it can also shot lasers like the player space ship
+and if the laser hits the player , the player will be destroyed.
 
 
+![5](https://user-images.githubusercontent.com/57447475/140737219-5ecb7544-d093-4d82-b5a0-b784d4ead650.jpeg)
+
+
+For that task i created "BossSpwaner" object that will be on charge for the boss apperance every 'x' seconds.
+
+I've added to it the existing "Time Spanwer" script to make it appears every 'x' seconds.
+
+I also made a new Prefab object "Boss Space Ship " which i gave to it all the requested scripts :
+1) Sprite Renderer - to be able to see the image of it on screen.
+2) Mover - to be able to move it from top to bottm
+3) Destroy on trigger 2d - this boss will be destroyed by player laser
+4) RigidBody2d and circle collider2d - to make the collide event 
+5) Time Spanwer - for it's laser to be shot every 'x' seconds.
+
+I also added to the PlayerSpaceship object a new destroy on trigger 2d which called "Destroy On Laser Boss Trigger" - and gave it the "Boss Laser" tag
+so now when the laser of the boss hits the player , it will be destroyed.
