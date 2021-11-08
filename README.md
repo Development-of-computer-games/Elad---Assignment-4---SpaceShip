@@ -2,7 +2,7 @@
 This is the first part of the 4th assignment
 
 
-#First part (Choosing 1 from 6 options to improve that were given to us).
+# First part (Choosing 1 from 6 options to improve that were given to us).
 
 I chose to do the first option (The shield appears randomly on the screen and when the player takes it, we see the shield embraces the player and fades gradually in 5 seconds)
 
