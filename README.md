@@ -1,4 +1,4 @@
-# Elad---Assignment-4---SpceShip
+# Elad---Assignment-4---SpaceShip
 This is the first part of the 4th assignment
 
 
