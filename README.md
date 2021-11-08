@@ -17,8 +17,8 @@ To make it appers when the player takes it on the screen , i've added some lines
 First i found the object with FindWithTag function and in the second highlighted line i got an access to it's Sprit Renderer so i can now show and unshow the picture of shield
 on the player spaceship.
 
-To make it randomly appears i used a script called "ShiledRespanwer" which i made and basically this script creates a new shiled icon on the screen only
-when the older one was taken by the player and to do that i did an if statement which we will go into it only if the currentShield object is null - that means the player took it.
+To make it randomly appears i used a script called "ShiledRespanwer" which i made and basically this script creates a new shield icon on the screen only
+when the older one was taken by the player and to do that i did an if statement which we will go into it only if the currentShield object is null - that means the player took it.(because when a player takes the shield we destroy the object , and it becomes null untill we create a new one).
 By the field "shieldApperance" i can determine the time in seconds that will pass from the moment the player took the shield untill a new one will appear.
 
 ![3](https://user-images.githubusercontent.com/57447475/140735776-d0707f03-bdd0-47e6-bcd9-633500d9af49.jpeg)
