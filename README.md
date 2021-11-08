@@ -33,6 +33,9 @@ when finishing the fadeout  , we need to fade in for the next time the player ta
 
 ![4](https://user-images.githubusercontent.com/57447475/140736178-49965def-666c-4456-8b52-b623698df9fd.jpeg)
 
+Finally when taking shield it will look like this (and gradually disapper in 5 seconds):
+
+![3](https://user-images.githubusercontent.com/57447475/140759954-9d3d122b-1c1d-4709-9c83-a7d1ed3e9f54.jpeg)
 
 
 
