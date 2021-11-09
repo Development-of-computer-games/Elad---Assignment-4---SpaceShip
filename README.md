@@ -94,7 +94,10 @@ After three hits (Game over):
 
 # [link for the game](https://eladwd.itch.io/spaceship)
 
+# Links for the new scripts i've added:
 
 https://github.com/Development-of-computer-games/Elad---Assignment-4---SpaceShip/blob/main/Assets/DestroyEnemyOnTrigger2D.cs
 
 https://github.com/Development-of-computer-games/Elad---Assignment-4---SpaceShip/blob/main/Assets/DestroyOnLaserBossTrigger.cs
+
+https://github.com/Development-of-computer-games/Elad---Assignment-4---SpaceShip/blob/main/Assets/ShiledRespanwer.cs
