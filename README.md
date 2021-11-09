@@ -63,3 +63,32 @@ I also made a new Prefab object "Boss Space Ship " which i gave to it all the re
 
 I also added to the PlayerSpaceship object a new destroy on trigger 2d which called "Destroy On Laser Boss Trigger" - and gave it the "Boss Laser" tag
 so now when the laser of the boss hits the player , it will be destroyed.
+
+
+# Update :
+
+Three heart lives were added on the left side of the screen.
+Now the player is dead only if it gets hit 3 times (by space enemies or boss enemy).
+In each hit the player scale reduces ( i used the existing "Health System" script and added to it a few more code line).
+In addition after three hits the player is destroyed and a Mesh text shows on the screen : "Game Over!".
+
+
+![WhatsApp Image 2021-11-09 at 16 02 15](https://user-images.githubusercontent.com/57447475/140938185-20994be8-7699-4ee1-8072-3eebd2d1a259.jpeg)
+
+
+After one hit : 
+
+![WhatsApp Image 2021-11-09 at 16 02 29](https://user-images.githubusercontent.com/57447475/140938281-31787128-aabc-4a5a-9cfc-cc4396326572.jpeg)
+
+After two hits: (the player is really small now)
+
+![WhatsApp Image 2021-11-09 at 16 02 37](https://user-images.githubusercontent.com/57447475/140938334-9d5250fc-eedd-4111-96e8-14fda3746027.jpeg)
+
+After three hits (Game over):
+
+
+![WhatsApp Image 2021-11-09 at 16 02 45](https://user-images.githubusercontent.com/57447475/140938424-eb43c2f5-909c-408a-a8ab-16434f708dee.jpeg)
+
+
+
+
